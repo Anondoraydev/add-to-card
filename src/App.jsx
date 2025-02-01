@@ -68,7 +68,7 @@ const App = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 dark:bg-gray-900 ">
       <h1 className="text-3xl font-semibold mb-4">Product List</h1>
 
       <div className="flex gap-8">
@@ -94,7 +94,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className="w-80 p-4 border rounded shadow-lg bg-gray-100">
+        <div className="w-80 p-4 border rounded shadow-lg dark:bg-amber-500 bg-gray-100">
           <Cart
             cart={cart}
             removeFromCart={removeFromCart}

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Cart = ({ cart, removeFromCart, updateQuantity, getTotalPrice, handleBuyNow }) => {
   return (
-    <div className="p-4">
+    <div className="p-4 dark:bg-green-400">
       <h2 className="text-2xl font-semibold mb-4 text-center md:text-left">Your Cart</h2>
 
       {cart.length === 0 ? (
